@@ -248,11 +248,11 @@ def drawtrees():
 
 
     for i in range(10):
-        print("Drawing tree",i+1,"/20")
+        print("Drawing tree " + str(i+1) + "/20")
         temph = randint(-270,-80),randint(-180,-170)
         treees(temph)
     for i in range(10):
-        print("Drawing tree",i+11,"/20")
+        print("Drawing tree " + str(i+11) + "/20")
         temph = randint(-270,-80),randint(-200,-190)
         treees(temph)
 
