@@ -41,7 +41,7 @@ def pendown():
     for i in turtles:
         i.pendown()
 
-        
+
 def speed():
     for i in turtles:
         i.speed(0)
