@@ -35,9 +35,13 @@ turtles = [grass,sky,mountain,trees,cloud,lake,tuft,cut]
 def penup():
     for i in turtles:
         i.penup()
+
+
 def pendown():
     for i in turtles:
         i.pendown()
+
+        
 def speed():
     for i in turtles:
         i.speed(0)
